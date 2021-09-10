@@ -2,20 +2,23 @@ h1 {
 	color: tomato;
 	text-align: center;
 	font-family: monospace;
-	font-size: 300%
+	font-size: 400%;
 }
 form {
 	color: black;
 	text-align: center;
-	font-size: 130%;
+	font-size: 100%
 	align-content: center;
 	font-family: monospace;
 }
 head{
-	zoom: 200%;
+	zoom: 350%;
+	font-family: monospace;
+	color: black;
 }
 h4
 {
 	font-family: monospace;
 	text-align: center;
+	font-size: 150%;
 }
