@@ -3,11 +3,11 @@ h1 {
 	text-align: center;
 	font-family: monospace;
 	font-size: 400%;
-	background-image: url(img/lightgrayleather.gif);
+	
 }
 form {
 	color: black;
-	background-image: url(img/lightgrayleather.gif);
+	
 	text-align: center;
 	font-size: 100%
 	align-content: center;
@@ -17,7 +17,7 @@ head{
 	zoom: 350%;
 	font-weight: bold;
 	font-family: monospace;
-	background-image: url(img/lightgrayleather.gif);
+	
 	color: black;
 }
 h4
@@ -25,12 +25,11 @@ h4
 	font-family: monospace;
 	text-align: center;
 	font-size: 150%;
-		background-image: url(img/lightgrayleather.gif);
+		
 }
 label{
 	font-weight: bold;
-		background-image: url(img/lightgrayleather.gif);
-}
+		
 html { 
- 	background-image: url(img/lightgrayleather.gif);
+ 	background-image: url(lightgrayleather.gif);
 }
