@@ -10,14 +10,15 @@
 <body bgcolor="AliceBlue">
 <form>
 	<label for="fname">FIRST NAME</label><br>
-	<input type="text" id="fname" size="15"><br>
+	<input type="text" id="fname" size="15" placeholder="FIRST NAME"><br>
 	<label for="mname">MIDDLE NAME</label><br> 
-	<input type="texT" id="mname" size="15"><br>
+	<input type="texT" id="mname" size="15" placeholder="MIDDLE NAME"><br>
 	<label for="lname">LAST NAME</label><br>
-	<input type="text" id="lname" size="15"><br>
+	<input type="text" id="lname" size="15" placeholder="LAST NAME"><br>
 	<br>
 	<label>DEGREE</label>
 	<select>
+		<option>SELECT BELOW</option>
 		<option value="BE">BE</option>
 		<option value="B.TECH">BTECH</option>
 		<option value="MCA">MCA</option>
@@ -51,11 +52,11 @@
 </select><br><br>
 <label for="backlog">BACKLOGS(if any)</label><br>
 <input type="number" id="backlog" name="backlog" value="0" size="3"><br><br>
-<label for="relocate">willing to relocate for job?</label>
-<input type="radio" value="yes" id="relocate">YES</input>
-<input type="radio" value="no" id="relocate">NO</input>
-
-
+<p>are you willing to relocate</p>
+<input type="radio" id="yes" name="relocate" value="yes">
+<label for="yes">YES</label>
+<input type="radio" id="no" name="relocate" value="no">
+<label for="no">NO</label>
 </form>
 </body>
 </html>
