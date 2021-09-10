@@ -1,64 +1,61 @@
-<Html>  
-<head>   
-<title>  
-Registration Page
-</title>  
-<h1>EMPLOYEE REGISTRATION FORM</h1>
-</head>  
-<body bgcolor="AliceBlue"> 
-<br>  
-<br>  
-<form>  
-  
-<label> Firstname </label>         
-<input type="text" name="firstname" size="15"/> <br> <br>  
-<label> Middlename: </label>     
-<input type="text" name="middlename" size="15"/> <br> <br>  
-<label> Lastname: </label>         
-<input type="text" name="lastname" size="15"/> <br> <br> 
-<label>
-Course :  
-</label>   
-<select>  
-<option value="Course">Course</option>  
-<option value="BCA">BCA</option>  
-<option value="BBA">BBA</option>  
-<option value="B.Tech">B.Tech</option>  
-<option value="MBA">MBA</option>  
-<option value="MCA">MCA</option>  
-<option value="M.Tech">M.Tech</option>  
-</select>    
-<br>  
-<br>  
-<label>   
-Gender :  
-</label><br>  
- <select>
-  <option value="male">male</option>
-  <option value="female">female</option>
-  <option value="other">other</option>
- </select>
-<br>  
-<br>  
-<label>   
-Phone :  
-</label>  
-<input type="text" name="country code"  value="+91" size="2"/>   
-<input type="text" name="phone" size="10"/> <br> <br>  
-Address  
-<br>  
-<textarea cols="80" rows="5" value="address">  
-</textarea>  
-<br> <br>  
-Email:  
-<input type="email" id="email" name="email"/> <br>    
-<br> <br>  
-Password:  
-<input type="Password" id="pass" name="pass"> <br>   
-<br> <br>  
-Re-type password:  
-<input type="Password" id="repass" name="repass"> <br> <br>  
-<input type="button" value="Submit"/>  
-</form>  
-</body>  
-</html>  
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+		registration page
+	</title>
+</head>
+<h1>FRESHERS REGISTRATION FORM</h1>
+<body bgcolor="AliceBlue">
+<form>
+	<label for="fname">FIRST NAME</label><br>
+	<input type="text" id="fname" size="15"><br>
+	<label for="mname">MIDDLE NAME</label><br> 
+	<input type="texT" id="mname" size="15"><br>
+	<label for="lname">LAST NAME</label><br>
+	<input type="text" id="lname" size="15"><br>
+	<br>
+	<label>DEGREE</label>
+	<select>
+		<option value="BE">BE</option>
+		<option value="B.TECH">BTECH</option>
+		<option value="MCA">MCA</option>
+	</select>
+	<br><br>
+	<label for="gender">GENDER</label>
+	<select>
+		<option id="gender">SELECT BELOW</option>
+		<option value="MALE">MALE</option>
+		<option value="FEMALE">FEMALE</option>
+		<option value="OTHERS">OTHERS</option>
+	</select><br>
+     <br>
+	<label for="pno">PHONE</label>
+	<input type="text" id="pno" name="country code" value="+91" size="2"/>
+	<input type="text" id="pno" name="phone" size="10"/>
+	<br><br>
+<label for="cgpa">
+	ENTER YOUR CGPA
+</label>
+<input type="number" id="cgpa" name="ex.8.2" size="3"><br>
+<br>
+<label for="pyear">PASSING YEAR</label>
+<select>
+	<option id="pyear">SELECT BELOW</option>
+	<option value="2022" id="pyear">2022</option>
+	<option value="2021" id="pyear">2021</option>
+	<option value="2020" id="pyear">2020</option>
+	<option value="2019" id="pyear">2019</option>
+	
+</select><br><br>
+<label for="backlog">BACKLOGS(if any)</label><br>
+<input type="number" id="backlog" name="backlog" value="0" size="3"><br><br>
+<label for="relocate">willing to relocate for job?</label>
+<input type="radio" value="yes" id="relocate">YES</input>
+<input type="radio" value="no" id="relocate">NO</input>
+
+
+</form>
+</body>
+</html>
