@@ -67,7 +67,13 @@
 <label for="no">NO</label><br><br>
 <input type="checkbox" id="agree">
 <label for="agree">i,agree to send my data for the company's recruitment process</label><br><br>
-<button type="button">submit</button><br><br>
+<script type="text/javascript">
+	function submit1(){
+		document.getElementById("submit").innerHTML="wait sending your details";
+	}
+</script>
+<button type="button" onclick="submit1()">submit</button><br><br>
+<p id="submit">click to submit</p>
 </form>
 </body>
 </html>
